@@ -1,0 +1,4 @@
+﻿# Código gitignore para evitar procesar los directorios de las dependencias
+.idea
+.DS_Store
+ex1.erb

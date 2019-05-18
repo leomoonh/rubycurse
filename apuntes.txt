@@ -1,0 +1,95 @@
+escribir
+puts ' Hello World'
+
+suma   +
+resta  -
+multiplicacion  *
+division   /
+
+Comentarios !!!
+
+# comentario ..
+
+
+repite la cadena (n) veces
+puts ' blink ' * 4
+
+
+
+puts ' You\' re swell!'
+puts ' backslash at the end of a string: \\'
+puts ' up\\down'
+puts ' up\down'
+
+
+conversion de tipos  a cadena7
+
+var1 = 2
+var2 = ' 5'
+puts var1.to_s + var2
+
+conversion de tipos a entero
+var1 = 2
+var2 = ' 5'
+puts var1.to_s + var2
+puts var1 + var2.to_i
+puts ' 15' .to_f
+
+escribe lo que lees
+
+puts gets
+
+lee con gets y asigna a name
+
+puts ' Hello there, and what\' s your name?'
+name = gets
+puts ' Your name is ' + name + ' ? What a lovely name!'
+puts ' Pleased to meet you, ' + name + ' . :)'
+
+
+name = gets.chomp  elimina el enter al final de la cadena
+
+
+puts var1.reverse  caracteres al reves
+
+puts var1.length tamaño de la cadena
+
+
+puts letters.upcase
+puts letters.downcase
+puts letters.swapcase
+puts letters.capitalize
+
+centrando cadenas
+line_width = 50
+puts( ' Old Mother Hubbard' .center(line_width))
+
+justificando cadenas
+line_width = 40
+str = ' --> text <--'
+puts(str.ljust( line_width))
+puts(str.center(line_width))
+puts(str.rjust( line_width))
+puts(str.ljust(line_width/2) + str.rjust(line_width/2))
+
+
+puts 5**2  a la potencia 2
+puts 5**0.5   raiz cuadrada
+puts 7/3      division
+puts 7%3      residuo
+puts 365%7    residuo
+puts (2-5).abs  valor absoluto
+
+
+puts(rand(100)) aleatorio entre 0 y 99
+
+
+
+
+
+
+
+
+
+
+
